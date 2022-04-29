@@ -71,3 +71,4 @@ out.agg$area_ha <- out.agg$count*0.09
 #save
 saveRDS(out.agg, 'data/simulation_points/simulation_points.rds')
 
+
