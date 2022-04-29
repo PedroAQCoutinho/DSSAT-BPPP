@@ -1,0 +1,6 @@
+Script for generating these files on google earth engine:
+
+https://code.earthengine.google.com/6f3e30ac366e8076fcd7e37a6d494ffe
+
+
+
