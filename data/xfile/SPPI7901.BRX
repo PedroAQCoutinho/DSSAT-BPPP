@@ -1,0 +1,133 @@
+*EXP.DETAILS: SPPI7901BR MARANDU PALISADEGRASS
+
+*GENERAL
+@PEOPLE
+M. Araujo; D. Pequeno
+@ADDRESS
+Av. Padua Dias, 11 - USP/ESALQ
+@SITE
+Catanduva, Presidente Prudente, São Carlos, and Votuporanga, SP, 
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+     20   -99   -99   -99   -99   -99   1.5   -99   -99 pping
+
+*TREATMENTS                        -------------FACTOR LEVELS------------
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 1 1 0 MARANDU Catanduva          1  1  0  1  1  1  1  0  0  0  0  1  1
+
+*CULTIVARS
+@C CR INGENO CNAME
+ 1 BR SP0001 Marandu
+
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
+ 1 00000001 YVWB       -99   -99   -99   -99   -99   -99 -99    -99  TX107173   Catanduva
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+ 1             -99             -99       -99               -99   -99   -99   -99   -99   -99
+
+*SOIL ANALYSIS
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 1 80002   -99   -99   -99  -99
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 1    15   -99   -99   -99   -99   -99   -99   -99   -99
+
+*INITIAL CONDITIONS
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 1    BH 79001  2000   -99     1     1   -99  8000     1   -99   100    25 residue
+@C  ICBL  SH2O  SNH4  SNO3
+ 1     0  .243    .1    .9
+ 1     5   .24    .1    .9
+ 1    15  .257    .1    .9
+ 1    30  .303    .1    .9
+ 1    60  .333    .1    .9
+ 1   100  .335    .1    .9
+ 1   200  .335    .1    .9
+
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
+ 1 80002   -99   999   999     T     R     2     0     2  2000   150    32     1     0                        -99
+
+*IRRIGATION AND WATER MANAGEMENT
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 1     1    30    50   100 GS000 IR001    10 -99
+@I IDATE  IROP IRVAL
+ 1 80033 IR004  10.5
+
+*FERTILIZERS (INORGANIC)
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
+ 1 80012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 81012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 82012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 83012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 84012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 85012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 86012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 87012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 88012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 89012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 90012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 91012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 92012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 93012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 94012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 95012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 96012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 97012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 98012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 99012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 00012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 01012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 02012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 03012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 04012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 05012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 06012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 07012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 08012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 09012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 10012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 11012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 12012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+ 1 13012 FE001 AP001     1    50   -99   -99   -99   -99   -99 28 days
+
+*RESIDUES AND ORGANIC FERTILIZER
+@R RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET RENAME
+ 1 80002   -99   -99   -99   -99   -99   -99   -99   -99 -99
+
+*CHEMICAL APPLICATIONS
+@C CDATE CHCOD CHAMT  CHME CHDEP   CHT..CHNAME
+ 1 80002   -99   -99   -99   -99   -99  -99
+
+*TILLAGE AND ROTATIONS
+@T TDATE TIMPL  TDEP TNAME
+ 1 80002   -99   -99 -99
+
+*HARVEST DETAILS
+@H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
+ 1 16365 GS000     C     A   -99   -99 
+
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 1 GE              1     1     S 80002   215 DEFAULT SIMULATION CNTR   PRFRM
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 1 OP              Y     Y     N     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1 ME              M     M     E     F     S     L     R     0     P     S     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 1 MA              R     R     R     R     R
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     Y     Y     Y     Y     Y     N     Y     N     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 1 PL          79001 79001     0     0     0     0     0
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 1 IR              0     0     0 GS000 IR001     0     0
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 1 NI              0     0     0 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 1 RE              0     0     0
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 1 HA              0 79001     0     0
+
+
+
